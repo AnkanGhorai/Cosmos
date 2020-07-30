@@ -1,0 +1,7 @@
+There are 3 controllers
+  Item,Places,Prodects for 3 containers
+ 
+ Default is item which is for People Container manipulation
+ Places is for Places container manipulattion
+ Products is for Product container manipulation.
+ 
