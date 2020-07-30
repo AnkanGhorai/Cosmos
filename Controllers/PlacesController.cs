@@ -71,11 +71,11 @@ namespace Cosmos.Controllers
 
 
         [ActionName("Delete")]
-        public async Task<ActionResult> DeleteAsync(string id,string type)
+        public async Task<ActionResult> DeleteAsync(string id,string state)
         {
             if (id == null)
                 return BadRequest();
-            Places places = await _placesDBServices.GetItemAsync(id, type);
+            Places places = await _placesDBServices.GetItemAsync(id, state);
 
             if (places == null)
                 return NotFound();
